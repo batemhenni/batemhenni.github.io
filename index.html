@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <title>Bate Mhenni</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  
+  <!-- Favicons -->
+  <link href="logo.png" rel="icon">
+  <link href="logo.png" rel="apple-touch-icon">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee:200,300,400|Playfair+Display:400,700" rel="stylesheet" />
+  
+  <!-- Bootstrap CSS File -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  
+  <!-- Libraries CSS Files -->
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+  <link rel="stylesheet" href="css/jquery.timepicker.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  
+  <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
+  
+  <!-- Theme Style -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <!--==========================
+    Header
+    ============================-->
+    <header class="site-header">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-4 site-logo" data-aos="fade">
+            <a href="index.html"><em>Bate Mhenni</em></a></div>
+            <div class="col-8">
+              
+              
+              <div class="site-menu-toggle js-site-menu-toggle"  data-aos="fade">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div><!-- #menu-toggle -->
+              
+              <div class="site-navbar js-site-navbar">
+                <nav role="navigation">
+                  <div class="container">
+                    <div class="row full-height align-items-center">
+                      <div class="col-md-6 mx-auto text-center">
+                        <ul class="list-unstyled menu">
+                          <li class="active"><a href="index.html">Accueil</a></li>
+                          <li><a href="rooms.html">Chambres</a></li>
+                          <!--li><a href="about.html">À Propos</a></li>--->
+                          <!---li><a href="blog.html">Blog</a></li--->
+                          <li><a href="contact.html">Contactez-Nous</a></li>
+                          <li><a href="reservation.html">Réservation</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header><!-- #header -->
+      
+      <!--==========================
+        Intro Section
+        ============================-->
+        <section class="site-hero overlay" style="background-image: url(img/hero_1.jpg)" data-stellar-background-ratio="0.5">
+          <div class="container">
+            <div class="row site-hero-inner justify-content-center align-items-center">
+              <div class="col-md-10 text-center" data-aos="fade-up">
+                <h1 class="heading">Choisir La Chambre <br>Idéale</h1>
+              </div>
+            </div>
+          </div>
+          
+          <a class="mouse smoothscroll" href="#next">
+            <div class="mouse-icon">
+              <span class="mouse-wheel"></span>
+            </div>
+          </a>
+        </section><!-- END section -->
+        
+        <section class="section bg-light" id="next">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-7 mx-auto text-center mb-5">
+                <h2 class="heading">Voir Les Disponibilités</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="block-32">
+                
+                <form action="#">
+                  <div class="row">
+                    <div class="col-md-6 mb-3 mb-lg-0 col-lg-3">
+                      <label for="checkin_date" class="font-weight-bold text-black">Check In</label>
+                      <div class="field-icon-wrap">
+                        <div class="icon"><span class="icon-calendar"></span></div>
+                        <input type="text" id="checkin_date" class="form-control">
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-3 mb-lg-0 col-lg-3">
+                      <label for="checkout_date" class="font-weight-bold text-black">Check Out</label>
+                      <div class="field-icon-wrap">
+                        <div class="icon"><span class="icon-calendar"></span></div>
+                        <input type="text" id="checkout_date" class="form-control">
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-3 mb-md-0 col-lg-3">
+                      <div class="row">
+                        <div class="col-md-6 mb-3 mb-md-0">
+                          <label for="adults" class="font-weight-bold text-black">Adultes</label>
+                          <div class="field-icon-wrap">
+                            <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                            <select name="" id="adults" class="form-control">
+                              <option value="">1</option>
+                              <option value="">2</option>
+                              <option value="">3</option>
+                              <option value="">4+</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-md-6 mb-3 mb-md-0">
+                          <label for="children" class="font-weight-bold text-black">Enfants</label>
+                          <div class="field-icon-wrap">
+                            <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                            <select name="" id="children" class="form-control">
+                              <option value="">1</option>
+                              <option value="">2</option>
+                              <option value="">3</option>
+                              <option value="">4+</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 align-self-end">
+                      <button value="send" type="submit" class="btn btn-primary btn-block text-white">Voir Les Disponibilités</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              
+              
+            </div>
+          </div>
+        </section>
+        
+        <section class="section">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-12 col-lg-7 ml-auto order-lg-2" data-aos="fade-up">
+                <img src="img/about_feature_image.jpg" alt="Image" class="img-fluid">
+              </div>
+              <div class="col-md-12 col-lg-4 order-lg-1" data-aos="fade-up">
+                <h2 class="heading">Bienvenue <em></em></h2>
+                <p class="lead">Nous sommes une jeunes équipes dynamique et motivées</p>
+                <p class="mb-4">Ce Site fournit un service de réservation en ligne grâce auquel tous les fournisseurs d’hébergements, notamment les hôteliers, et d’autres prestataires, peuvent proposer leurs produits et services à la réservation, et grâce auquel les visiteurs du site peuvent effectuer une réservation. En plus de ce service, un blog (Lifetyle/Voyage) a été mis en place ce derniers vous donneras quelques idées/conseils pour une expérience inoubliable. </p>
+                <p><a href="#" class="btn btn-primary text-white py-2 mr-3">Lire La Suite</a> <span class="mr-3">ou</span> <a href="https://vimeo.com/channels/staffpicks/93951774" class="play-button popup-vimeo">Voir La Vidéo</a></p>
+              </div>
+              
+            </div>
+          </div>
+        </section>
+        
+        <section class="section bg-light" id="validation-check">
+          
+          <div class="container">
+            <div class="row justify-content-center text-center mb-5">
+              <div class="col-md-8">
+                <h2 class="heading" data-aos="fade-up">Nos Offres</h2>
+                <p class="lead" data-aos="fade-up">Spécialement conçu pour vous</p>
+              </div>
+            </div>
+            
+            <div class="site-block-half d-flex bg-white" data-aos="fade-up" data-aos-delay="100">
+              <a href="https://www.hotelbestnight.com/" class="image d-block bg-image" style="background-image: url('img/img_1.jpg');"></a>
+              <div class="text">
+                <span class="d-block"><span class="display-4 text-primary">11 500 DA</span> / par jour </span>
+                <h2>Best Night</h2>
+                <p class="lead">Souhaitez-vous vivre un séjour confortables dans nos chambres entièrement aménagées pour votre bien être?</p>
+                <p>En choisissant l’hôtel Best Night pour vos déplacements d’affaires ou des vacances en famille, vous optez pour une expérience taillée à votre mesure.</p>
+                <p><a href="/reservation.html" class="btn btn-primary text-white">Book Now</a></p>
+              </div>
+            </div>
+            <div class="site-block-half d-flex bg-white" data-aos="fade-up" data-aos-delay="200">
+              <a href="https://sofitel.accorhotels.com/fr/hotel-1540-sofitel-algiers-hamma-garden/index.shtml" class="image d-block bg-image order-2" style="background-image: url('img/img_2.jpg');"></a>
+              <div class="text order-1">
+                <span class="d-block"><span class="display-4 text-primary">20 679 DA</span> / par jour </span>
+                <h2>Sofitel Algiers Hamma</h2>
+                <p class="lead">L'art de vivre à la française s'allie au raffinement oriental du Sofitel Algiers Hamma Garden, un hôtel de luxe 5 étoiles à Alger.</p>
+                <p>Les 309 chambres et 24 suites de cet hôtel, symbole du luxe à Alger, offrent un confort high-tech et une élégance à la française agrémentée de touches mauresques évoquant la casbah.</p>
+                <p><a href="/reservation.html " class="btn btn-primary text-white">Book Now</a></p>
+              </div>
+            </div>
+            
+            <div class="row justify-content-center text-center mt-5" data-aos="fade-up" data-aos-delay="300">
+              <div class="col-md-4"><p><a href="/rooms.html" class="btn btn-primary text-white py-3 px-5">Voir Tout</a></p></div>
+            </div>
+          </div>
+        </section>
+        
+        <!--section class="section slider-section">
+          <div class="container">
+            <div class="row justify-content-center text-center mb-5">
+              <div class="col-md-8">
+                <h2 class="heading" data-aos="fade-up">Gallery</h2>
+                <p class="lead" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolor, iusto doloremque quo odio repudiandae sunt eveniet? Enim facilis laborum voluptate id porro, culpa maiores quis, blanditiis laboriosam alias. Sed.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="home-slider major-caousel owl-carousel mb-5" data-aos="fade-up" data-aos-delay="200">
+                  <div class="slider-item">
+                    <img src="img/slider-1.jpg" alt="Image placeholder" class="img-fluid">
+                  </div>
+                  <div class="slider-item">
+                    <img src="img/slider-2.jpg" alt="Image placeholder" class="img-fluid">
+                  </div>
+                  <div class="slider-item">
+                    <img src="img/slider-3.jpg" alt="Image placeholder" class="img-fluid">
+                  </div>
+                  <div class="slider-item">
+                    <img src="img/slider-4.jpg" alt="Image placeholder" class="img-fluid">
+                  </div>
+                  <div class="slider-item">
+                    <img src="img/slider-5.jpg" alt="Image placeholder" class="img-fluid">
+                  </div>
+                  <div class="slider-item">
+                    <img src="img/slider-6.jpg" alt="Image placeholder" class="img-fluid">
+                  </div>
+                  <div class="slider-item">
+                    <img src="img/slider-7.jpg" alt="Image placeholder" class="img-fluid">
+                  </div>
+                </div>
+                END slider 
+              </div>
+              
+              <div class="col-md-12 text-center"><a href="#" class="">Voir Plus De Photos</a></div>
+              
+            </div>
+          </div>
+        </section>--->
+        
+        
+        <!--section class="section blog-post-entry bg-light">
+          <div class="container">
+            <div class="row justify-content-center text-center mb-5">
+              <div class="col-md-8">
+                <h2 class="heading" data-aos="fade-up">Notre Blog</h2>
+                <p class="lead" data-aos="fade-up"> </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-6 col-12 post" data-aos="fade-up" data-aos-delay="100">
+                
+                <div class="media media-custom d-block mb-4">
+                  <a href="#" class="mb-4 d-block"><img src="img/img_9.jpg" alt="Image placeholder" class="img-fluid"></a>
+                  <div class="media-body">
+                    <span class="meta-post">25 Avril 2019</span>
+                    <h2 class="mt-0 mb-3"><a href="#">Unwind with Your Family in our Luxury Services</a></h2>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6 col-12 post" data-aos="fade-up" data-aos-delay="200">
+                <div class="media media-custom d-block mb-4">
+                  <a href="#" class="mb-4 d-block"><img src="img/img_8.jpg" alt="Image placeholder" class="img-fluid"></a>
+                  <div class="media-body">
+                    <span class="meta-post">25 Mai 2019</span>
+                    <h2 class="mt-0 mb-3"><a href="#">Unwind with Your Family in our Luxury Services</a></h2>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6 col-12 post" data-aos="fade-up" data-aos-delay="300">
+                <div class="media media-custom d-block mb-4">
+                  <a href="#" class="mb-4 d-block"><img src="img/img_7.jpg" alt="Image placeholder" class="img-fluid"></a>
+                  <div class="media-body">
+                    <span class="meta-post">1 Juin 2019</span>
+                    <h2 class="mt-0 mb-3"><a href="#">Unwind with Your Family in our Luxury Services</a></h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section--->
+        <section class="section border-top">
+          <div class="container" >
+            <div class="row align-items-center">
+              <div class="col-md-6" data-aos="fade-up">
+                <h2>Make Yourself Comfortable</h2>
+              </div>
+              <div class="col-md-6 text-right" data-aos="fade-up" data-aos-delay="200">
+                <a href="contact.html" class="btn btn-primary py-3 text-white px-5">Contactez-Nous</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <!--==========================
+          Footer
+          ============================-->
+          
+          <footer class="section footer-section">
+            <div class="container">
+              <div class="row mb-4">
+                <div class="col-md-3 mb-5">
+                  <ul class="list-unstyled link">
+                    <li><a href="/about.html">À Propos</a></li>
+                    <li><a href="/contact.html">Aide</a></li>
+                    <li><a href="#">Terms &amp; Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    
+                  </ul>
+                </div>
+                <div class="col-md-3 mb-5">
+                  <ul class="list-unstyled link">
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/reservation.html">Réservation</a></li>
+                    <li><a href="/rooms.html">Chambres</a></li>
+                    <li><a href="/contact.html">Contactez-Nous</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-3 mb-5 pr-md-5 contact-info">
+                  <p><span class="d-block"><span class="ion-ios-location h5 mr-3 text-primary"></span>Adresse:</span> <a href="https://goo.gl/maps/jsADQ62hny9XEDbi8">ESHRA, Ain Benian, Alger, Algérie</a></p>
+                  <p><span class="d-block"><span class="ion-ios-telephone h5 mr-3 text-primary"></span>Téléphone:</span> <span> (+213) xxx xx xx xx</span></p>
+                  <p><span class="d-block"><span class="ion-ios-email h5 mr-3 text-primary"></span>Email:</span> <span> batemhenni@gmail.com</span></p>
+                </div>
+                <!---<div class="col-md-3 mb-5">
+                  <p>Sign up for our newsletter</p>
+                  <form action="#" class="footer-newsletter">
+                    <div class="form-group">
+                      <input type="email" class="form-control" placeholder="Your email...">
+                      <button type="submit" class="btn"><span class="fa fa-paper-plane"></span></button>
+                    </div>
+                  </form>
+                </div>-->
+              </div>
+              <div class="row bordertop pt-5">
+                <p class="col-md-6 text-left">
+                  
+                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                  Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+                  <script>document.write(new Date().getFullYear());</script> All rights reserved | Designed by 
+                  <a href="https://github.com/KyuCore" target="_blank" >Samy Benmahrez</a>
+                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                  
+                </p>
+                
+                <p class="col-md-6 text-right social">
+                  <a href="#"><span class="fa fa-instagram"></span></a>
+                  <a href="#"><span class="fa fa-facebook"></span></a>
+                  <a href="#"><span class="fa fa-twitter"></span></a>
+                </p>
+              </div>
+            </div>
+          </footer>
+          
+          <!-- JavaScript Libraries -->
+          <script src="js/jquery-3.3.1.min.js"></script>
+          <script src="js/jquery-migrate-3.0.1.min.js"></script>
+          <script src="js/popper.min.js"></script>
+          <script src="js/bootstrap.min.js"></script>
+          <script src="js/owl.carousel.min.js"></script>
+          <script src="js/jquery.stellar.min.js"></script>
+          <script src="js/jquery.magnific-popup.min.js"></script>
+          
+          <script src="js/aos.js"></script>
+          
+          <script src="js/bootstrap-datepicker.js"></script> 
+          <script src="js/jquery.timepicker.min.js"></script>           
+          
+          <script src="js/main.js"></script>
+        </body>
+        </html>
